@@ -3,7 +3,7 @@ from flask import Flask
 
 app = Flask(__name__)
 #路由声明器app.route('/'),
-# ip域网：http://192.168.112.1:5000(凤台移动域网)
+
 @app.route('/')
 def hello_world():
     return 'Hello world!'
